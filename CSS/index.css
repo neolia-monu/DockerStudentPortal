@@ -1,0 +1,147 @@
+.main-div{
+    /*border: 2px solid hotpink;*/
+    width: 63%;
+    margin: 0 12px;
+    /*padding-left: 12px;*/
+    /* background-color: white; */
+    /*height: auto;*/
+}
+
+.t-div{
+    display: flex;
+    flex-direction: row;
+    width: 104%;
+    flex-wrap: wrap;
+    /*margin-bottom: 6px;*/
+    /*border: 2px solid grey;*/
+}
+
+img {
+    /*border: 3px solid chartreuse;*/
+    width: 80%;
+    height: 80%;
+}
+
+.div-child{
+    /*border: 2px solid black;*/
+    margin: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*flex-wrap: nowrap;*/
+    align-items: center;
+    width: 29%;
+    height: 100%;
+    font-size: 15px;
+    /*width: 32%;*/
+    padding: 12px;
+    background-color: whitesmoke;
+}
+
+.div-child:hover{
+    box-shadow: 15px 15px 12px  grey;
+}
+
+.main-aside{
+    /*border: 2px solid chartreuse;*/
+    width: 20%;
+    background-color: navajowhite;
+    padding: 12px;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+.aside-div{
+    display: flex;
+    flex-direction: column;
+    /*padding: 12px;*/
+    text-align: justify;
+}
+
+.aside-div p {
+    background-color: #CF9FFF;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.aside-div p:hover {
+    /*background-color: #98FB98;*/
+    box-shadow: 6px 8px 7px grey;
+}
+
+.aside-div .aside-search{
+    /*padding: 12px;*/
+    width: 100%;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: aquamarine;
+    }
+
+    nav a{
+        font-size: 18px;
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-side{
+        width: 21%;
+    }
+
+    .main-div{
+        width: 75%;
+        /*border: 2px solid coral;*/
+    }
+
+    .t-div{
+        width: 100%;
+        /*border: 1px solid peru;*/
+    }
+
+    .div-child{
+        width: 44%;
+        /*border: 2px solid crimson;*/
+    }
+
+    .main-aside{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 12px;
+        font-size: 15px;
+    }
+
+    .aside-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside-div-search{
+        /*border: 2px solid saddlebrown;*/
+    }
+    .aside-search{
+        width: 100%;
+    }
+
+    .aside-div-content{
+        display: flex;
+        /*border: 2px solid firebrick;*/
+        margin: 12px 0;
+        flex-wrap: wrap;
+        width: 100%;
+        /*padding: 12px;*/
+    }
+
+    .aside-div div p{
+        width: 45%;
+        margin: 12px;
+        /*border: 2px solid greenyellow;*/
+    }
+}

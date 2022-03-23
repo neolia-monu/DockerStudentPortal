@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+    text-align: justify;
+      background-color: whitesmoke;
+    margin: 2px 4px 2px;
+}
+
+#header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: end;
+    padding: 12px;
+    border-bottom: 2px dotted black;
+    background-color: #2e822a;
+    /*background-color: #228B22;*/
+    /* background: #0cebeb; /* fallback for old browsers */ */
+    /* background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* Chrome 10-25, Safari 5.1-6 */ */
+    /* background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */
+    /* margin-bottom: 12px; */
+    /*height: 10vh;*/
+}
+
+#header-nav > #header-ul{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid cadetblue; */
+    list-style-type: none;
+    padding: 6px;
+}
+
+#header-ul li a {
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    /* margin: 12px; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* a:hover {
+    background-color: #A7C7E7;
+} */
+
+#header-link {
+    display: flex;
+    width: 100%;
+    /* border: 2px solid cyan; */
+    flex-direction: row;
+}
+.nav-side{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: 12px;
+    width: 20%;
+    align-items: center;
+    background: none;
+    padding: 10px 0 20px;
+    background-color: lightgreen;
+    /* background-color: darkkhaki; */
+}
+
+.nav-side a {
+    margin: 8px 0;
+    width: 100%;
+    padding: 2px 2px;
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: center;
+    font-size: 32px;
+    /* border: 2px solid blue; */
+    font-family: 'Dongle', sans-serif;
+}
+
+.nav-side a:hover {
+  background-color: aqua;
+  /* margin: 20px; */
+  width: 95%;
+  box-shadow: 3px 5px 10px grey;
+}

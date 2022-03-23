@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color: aqua;*/
+    margin: 0;
+    padding: 0;
+    /*border: 2px solid blue;*/
+    width: 100vw;
+    height: 100vh;
+    font-family: "Britannic Bold", sans-serif;
+}
+
+.form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*border: 2px solid saddlebrown;*/
+    height: 90vh;
+    margin: 12px;
+}
+
+.input-div {
+    /*border: 2px solid cyan;*/
+    margin: 13px;
+}
+.aise-hi{
+    background-color: bisque;
+    height: 33vh;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+input{
+    padding-top: 8px;
+    padding-left: 6px;
+    font-family: "David Libre";
+    font-size: 17px;
+}
+
+.submit-div{
+    text-align: center;
+}
+
+.form-back{
+    text-align: center;
+    margin-top: 18px;
+}
+
+.form-back a{
+    text-decoration: none;
+    color: black;
+}

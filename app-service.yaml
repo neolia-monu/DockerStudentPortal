@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  student-app:
+    image: student-app:0.1
+    restart: always
+    ports:
+      - 81:80
+  student-db:
+    image: mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=DB_PASSWD
+  student-phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_HOST=student-db

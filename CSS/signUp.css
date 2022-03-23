@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    /* background-color: lightskyblue; */
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+    /*border: 2px solid saddlebrown;*/
+}
+
+.title {
+    /*border:  2px dotted green;*/
+    padding: 12px;
+    margin: 0 0 12px;
+}
+
+.main-div {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid;
+    text-align: center;
+    box-shadow: 10px 10px grey;
+}
+
+.input-div {
+    /*border: 2px solid cyan;*/
+    margin: 13px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    padding-top: 8px;
+    padding-left: 6px;
+    font-family: "David Libre";
+    font-size: 22px;
+}
+
+input[type="radio"] {
+    /*border: 2px solid green;*/
+    cursor: pointer;
+    margin: 8px;
+    width: 22px;
+    height: 18px;
+}
+
+input[type="submit"] {
+    padding: 6px;
+    font-size: 18px;
+    background-color: DodgerBlue;
+    border: 1px solid blue;
+}
+
+.select-div {
+    /*border: 2px solid green;*/
+    text-align: left;
+    font-size: 22px;
+    margin: 13px;
+}
+
+.select-div select {
+    /*border: 2px solid blue;*/
+    padding: 5px 8px;
+    margin-left: 13px;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+/*#sem {
+    text-align: justify;
+}*/
+
+.submit-div{
+    text-align: center;
+}
+
+.form-forgot{
+    text-align: center;
+    margin-top: 18px;
+}
+
+.form-forgot a{
+    text-decoration: none;
+    color: black;
+}
+
+.create-ac{
+    text-align: center;
+    margin-top: 20px;
+}
+.create-ac a {
+    text-decoration: none;
+    color: black;
+}
